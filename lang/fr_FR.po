@@ -1,0 +1,914 @@
+# Translation of WordPress - 5.6.x - Development in French (France)
+# This file is distributed under the same license as the WordPress - 5.6.x - Development package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-02 18:44+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Language: fr\n"
+"Project-Id-Version: Goblog Free Micter\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Michaël T. <micter2@free.fr>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: 404.php:14
+msgid "404"
+msgstr "404"
+
+#: 404.php:17
+msgid "It looks like nothing was found at this location !!!"
+msgstr "Il semblerait que rien n'ait été trouvé à cet endroit !!!"
+
+#: 404.php:18
+msgid "Back to Home"
+msgstr "Retour à l'accueil"
+
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Une réponse à &ldquo;%s&rdquo;"
+
+#: comments.php:37
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s Réponse à &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Réponses à &ldquo;%2$s&rdquo;"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Aller directement au contenu"
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de la recherche pour : %s"
+
+#: search.php:23
+msgid "Opps Nothing Found"
+msgstr "Oups, je n'ai rien trouvé"
+
+#: searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr "Chercher apr&egrave;:"
+
+#: searchform.php:15
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Chercher &hellip;"
+
+#: searchform.php:18
+msgctxt "submit button"
+msgid "Search"
+msgstr "Chercher"
+
+#: inc/breadcrumb/breadcrumb.php:20
+msgid "Home"
+msgstr "Accueil"
+
+#: inc/breadcrumb/breadcrumb.php:21
+#, php-format
+msgid "Category \"%s\""
+msgstr "Catégorie \"%s\""
+
+#: inc/breadcrumb/breadcrumb.php:22
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr "Résultats de la recherche de \"%s\""
+
+#: inc/breadcrumb/breadcrumb.php:23
+#, php-format
+msgid "Tag \"%s\""
+msgstr "Mot-clé \"%s\""
+
+#: inc/breadcrumb/breadcrumb.php:24
+#, php-format
+msgid "Articles Posted by %s"
+msgstr "Articles publiés par %s"
+
+#: inc/breadcrumb/breadcrumb.php:25
+msgid "Error 404"
+msgstr "Erreur 404"
+
+#: inc/breadcrumb/breadcrumb.php:26
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
+
+#: inc/breadcrumb/breadcrumb.php:27
+#, php-format
+msgid "Comment Page %s"
+msgstr "Page de commentaire %s"
+
+#: inc/content/content-function.php:28 inc/content/content-function.php:53
+msgid "thumbnail"
+msgstr "miniature"
+
+#: inc/content/content-function.php:162
+msgid ""
+"<i class=\"fas fa-chevron-left\"></i><span class=\"screen-reader-text"
+"\">prev</span>"
+msgstr ""
+"<i class=\"fas fa-chevron-left\"></i><span class=\"screen-reader-text"
+"\">préc</span>"
+
+#: inc/content/content-function.php:163
+msgid ""
+"<i class=\"fas fa-chevron-right\"></i><span class=\"screen-reader-text"
+"\">next</span>"
+msgstr ""
+"<i class=\"fas fa-chevron-right\"></i><span class=\"screen-reader-text"
+"\">suiv</span>"
+
+#: inc/content/content-function.php:177 inc/content/content-function.php:194
+msgid "Pages:"
+msgstr "Pages:"
+
+#: inc/content/content-function.php:215
+msgid "Sorry there is no quote"
+msgstr "Désolé il n'y a pas de citation"
+
+#: inc/customize/block/navigasi-footer.php:14
+msgid "Navigasi Footer"
+msgstr "Navigation de Pied de Page"
+
+#: inc/customize/block/navigasi-footer.php:40
+#: inc/customize/block/navigasi-primary.php:40
+msgid "Background Color"
+msgstr "Couleur d'arrière-plan"
+
+#: inc/customize/block/navigasi-footer.php:59
+#: inc/customize/block/navigasi-primary.php:59
+msgid "Color Link"
+msgstr "Couleur de lien"
+
+#: inc/customize/block/navigasi-footer.php:78
+#: inc/customize/block/navigasi-primary.php:78
+msgid "Color Link Hover"
+msgstr "Couleur de lien survolé"
+
+#: inc/customize/block/navigasi-footer.php:97
+msgid "Color Icon Social Media"
+msgstr "Couleur des icônes de réseaux sociaux"
+
+#: inc/customize/block/navigasi-footer.php:116
+msgid "Color Icon Hover Social Media"
+msgstr "Couleur des icônes de réseaus sociaux au survol"
+
+#: inc/customize/block/navigasi-footer.php:135
+msgid "Link Facebook: "
+msgstr "Lien Facebook: "
+
+#: inc/customize/block/navigasi-footer.php:141
+#: inc/customize/block/navigasi-footer.php:165
+#: inc/customize/block/navigasi-footer.php:189
+#: inc/customize/block/navigasi-footer.php:213
+#: inc/customize/block/navigasi-footer.php:237
+msgid "Enter a valid URL"
+msgstr "Entrez une URL valide"
+
+#: inc/customize/block/navigasi-footer.php:159
+msgid "Link Twitter: "
+msgstr "Lien Twitter: "
+
+#: inc/customize/block/navigasi-footer.php:183
+msgid "Link Youtube: "
+msgstr "Lien Youtube: "
+
+#: inc/customize/block/navigasi-footer.php:207
+msgid "Link Instagram: "
+msgstr "Lien Instagram: "
+
+#: inc/customize/block/navigasi-footer.php:231
+msgid "Link Linkedin: "
+msgstr "Lien Linkedin: "
+
+#: inc/customize/block/navigasi-primary.php:14
+msgid "Navigasi Primary"
+msgstr "Navigation Principale"
+
+#: inc/customize/block/navigasi-primary.php:97
+msgid "Color Icon Search"
+msgstr "Couleur de l'icône de recherche"
+
+#: inc/functions/info-meta.php:50
+msgid "There is no description in the archive"
+msgstr "Il n'y a pas de description dans l'archive"
+
+#: inc/functions/info-meta.php:68
+msgid "There are no quotes and content"
+msgstr "Il n'y a pas de citations ni de contenu"
+
+#: inc/functions/theme-filter.php:37
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Continuer à lire<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: inc/functions/theme-filter.php:63
+#, php-format
+msgid "Category: %s"
+msgstr "Catégorie: %s"
+
+#: inc/functions/theme-filter.php:66
+#, php-format
+msgid "Tag: %s"
+msgstr "Mot-clé: %s"
+
+#: inc/functions/theme-filter.php:69
+#, php-format
+msgid "Author: %s"
+msgstr "Auteur: %s"
+
+#: inc/functions/theme-filter.php:72
+#, php-format
+msgid "Archives: %s"
+msgstr "Archives: %s"
+
+#: inc/functions/theme-support.php:114
+msgid "Primary Menu"
+msgstr "Menu Principal"
+
+#: inc/functions/theme-support.php:115
+msgid "Footer Menu"
+msgstr "Menu de pied de page"
+
+#: inc/parts/social-share.php:16
+msgid "Share:"
+msgstr "Partages:"
+
+#: inc/parts/social-share.php:21 inc/widgets/widget-about.php:69
+#: template-parts/footer/footer-sosmed.php:23
+msgid "facebook"
+msgstr "facebook"
+
+#: inc/parts/social-share.php:25 inc/widgets/widget-about.php:76
+#: template-parts/footer/footer-sosmed.php:26
+msgid "twitter"
+msgstr "twitter"
+
+#: inc/parts/social-share.php:29
+msgid "whatsapp"
+msgstr "whatsapp"
+
+#: inc/parts/social-share.php:33 inc/widgets/widget-about.php:104
+msgid "pinterest"
+msgstr "pinterest"
+
+#: inc/parts/social-share.php:37 inc/widgets/widget-about.php:97
+#: template-parts/footer/footer-sosmed.php:35
+msgid "linkedin"
+msgstr "linkedin"
+
+#: inc/widgets/widget-about.php:15
+msgid "This is a widget for displaying personal information."
+msgstr "Ceci est un widget pour afficher des informations personnelles."
+
+#: inc/widgets/widget-about.php:22
+msgid "Goblog About Me"
+msgstr "Goblog A propos de moi"
+
+#: inc/widgets/widget-about.php:61
+msgid "About Me"
+msgstr "A propos de moi"
+
+#: inc/widgets/widget-about.php:83 template-parts/footer/footer-sosmed.php:29
+msgid "youtube"
+msgstr "youtube"
+
+#: inc/widgets/widget-about.php:90 template-parts/footer/footer-sosmed.php:32
+msgid "instagram"
+msgstr "instagram"
+
+#: inc/widgets/widget-about.php:111
+msgid "github"
+msgstr "github"
+
+#: inc/widgets/widget-about.php:176
+msgid "Image Upload"
+msgstr "Téléversement d'Image"
+
+#: inc/widgets/widget-about.php:179
+msgid "Add Media"
+msgstr "Ajouter un media"
+
+#: inc/widgets/widget-about.php:180
+msgid "Clear"
+msgstr "Effacer"
+
+#: inc/widgets/widget-about.php:185
+msgid "Description"
+msgstr "Description"
+
+#: inc/widgets/widget-about.php:216 inc/widgets/widget-ads.php:54
+#: inc/widgets/widget-fanspage.php:80 inc/widgets/widget-posts.php:115
+#: inc/widgets/builder/by-categories/by-categories.php:179
+#: inc/widgets/builder/by-order/by-order.php:189
+#: inc/widgets/builder/by-tags/by-tags.php:179
+msgid "Title:"
+msgstr "Titre:"
+
+#: inc/widgets/widget-about.php:226
+msgid "Link Facebook:"
+msgstr "Lien Facebook:"
+
+#: inc/widgets/widget-about.php:228
+msgid "https://facebook.com/"
+msgstr "https://facebook.com/"
+
+#: inc/widgets/widget-about.php:234
+msgid "Link Twitter:"
+msgstr "Lien Twitter:"
+
+#: inc/widgets/widget-about.php:236
+msgid "https://twitter.com/"
+msgstr "https://twitter.com/"
+
+#: inc/widgets/widget-about.php:242
+msgid "Link Youtube:"
+msgstr "Lien Youtube:"
+
+#: inc/widgets/widget-about.php:244
+msgid "https://youtube.com/"
+msgstr "https://youtube.com/"
+
+#: inc/widgets/widget-about.php:250
+msgid "Link Instagram:"
+msgstr "Lien Instagram:"
+
+#: inc/widgets/widget-about.php:252
+msgid "https://instagram.com/"
+msgstr "https://instagram.com/"
+
+#: inc/widgets/widget-about.php:258
+msgid "Link LinkedIn:"
+msgstr "Lien LinkedIn:"
+
+#: inc/widgets/widget-about.php:260
+msgid "https://linkedin.com/"
+msgstr "https://linkedin.com/"
+
+#: inc/widgets/widget-about.php:266
+msgid "Link Pinterest:"
+msgstr "Lien Pinterest:"
+
+#: inc/widgets/widget-about.php:268
+msgid "https://pinterest.com/"
+msgstr "https://pinterest.com/"
+
+#: inc/widgets/widget-about.php:274
+msgid "Link Github:"
+msgstr "Lien Github:"
+
+#: inc/widgets/widget-about.php:276
+msgid "https://github.com/"
+msgstr "https://github.com/"
+
+#: inc/widgets/widget-ads.php:15
+msgid "Display any kinds of advertisements."
+msgstr "Affiche tout type de publicités."
+
+#: inc/widgets/widget-ads.php:19
+msgid "Goblog ADS"
+msgstr "Publicités Goblog"
+
+#: inc/widgets/widget-ads.php:62
+msgid "Ads Code:"
+msgstr "Code de publicité:"
+
+#: inc/widgets/widget-fanspage.php:20
+msgid "This is a widget for displaying Facebook Fans Page."
+msgstr "Ceci est un widget pour afficher la page Facebook des fans."
+
+#: inc/widgets/widget-fanspage.php:24
+msgid "Goblog Facebook Fans Page"
+msgstr "Page Facebook des fans Goblog"
+
+#: inc/widgets/widget-fanspage.php:88
+msgid "Facebook Page URL:"
+msgstr "URL de la page Facebook:"
+
+#: inc/widgets/widget-fanspage.php:90
+msgid "Facebook Page URL"
+msgstr "URL de la page Facebook"
+
+#: inc/widgets/widget-fanspage.php:94
+msgid "Tabs"
+msgstr "Tabulations"
+
+#: inc/widgets/widget-fanspage.php:96
+msgid "timeline"
+msgstr "ligne de temps"
+
+#: inc/widgets/widget-fanspage.php:97
+msgid "messages"
+msgstr "messages"
+
+#: inc/widgets/widget-fanspage.php:98
+msgid "events"
+msgstr "événements"
+
+#: inc/widgets/widget-fanspage.php:104
+msgid "Width:"
+msgstr "Largeur:"
+
+#: inc/widgets/widget-fanspage.php:106
+msgid "Min. 180 to Max. 500"
+msgstr "Min. 180 à Max 500"
+
+#: inc/widgets/widget-fanspage.php:112
+msgid "Height:"
+msgstr "Hauteur:"
+
+#: inc/widgets/widget-fanspage.php:114
+msgid "Min. 70"
+msgstr "Min. 70"
+
+#: inc/widgets/widget-fanspage.php:121
+msgid "Use Small Header?"
+msgstr "Utiliser une petite entête?"
+
+#: inc/widgets/widget-fanspage.php:129
+msgid "Adapt to plugin container width?"
+msgstr "Adapter à la largeur du conteneur?"
+
+#: inc/widgets/widget-fanspage.php:137
+msgid "Hide Cover Photo?"
+msgstr "Cacher la photo de couverture?"
+
+#: inc/widgets/widget-fanspage.php:145
+msgid "Show Friend's Faces?"
+msgstr "Montrer le visage des amis?"
+
+#: inc/widgets/widget-posts.php:15
+msgid "This is a widget for displaying article posts."
+msgstr "Ceci est un widget pour afficher des publication de type articles."
+
+#: inc/widgets/widget-posts.php:19
+msgid "Goblog Posts (By: order)"
+msgstr "Publications Goblog (Par: ordre)"
+
+#: inc/widgets/widget-posts.php:123
+#: inc/widgets/builder/by-categories/by-categories.php:187
+#: inc/widgets/builder/by-order/by-order.php:197
+#: inc/widgets/builder/by-tags/by-tags.php:187
+msgid "Number of post:"
+msgstr "Nombre de publications:"
+
+#: inc/widgets/widget-posts.php:132
+#: inc/widgets/builder/by-categories/by-categories.php:214
+#: inc/widgets/builder/by-order/by-order.php:224
+#: inc/widgets/builder/by-tags/by-tags.php:214
+msgid "Display post date?"
+msgstr "Afficher la date de publication?"
+
+#: inc/widgets/widget-posts.php:137
+#: inc/widgets/builder/by-order/by-order.php:237
+msgid "Type Posts"
+msgstr "Type de Publications"
+
+#: inc/widgets/widget-posts.php:139
+#: inc/widgets/builder/by-order/by-order.php:239
+msgid "Sticky Post"
+msgstr "Publication épinglée"
+
+#: inc/widgets/widget-posts.php:140
+#: inc/widgets/builder/by-order/by-order.php:240
+msgid "Random Post"
+msgstr "Publication au hasard"
+
+#: inc/widgets/widget-posts.php:141
+#: inc/widgets/builder/by-order/by-order.php:241
+msgid "Top Comments Post"
+msgstr "Meilleurs commentaires de publications"
+
+#: inc/widgets/widget-posts.php:142
+#: inc/widgets/builder/by-order/by-order.php:242
+msgid "Recent Post ( DESC = 3 2 1)"
+msgstr "Publication récente ( DESC = 3 2 1)"
+
+#: inc/widgets/widget-posts.php:143
+#: inc/widgets/builder/by-order/by-order.php:243
+msgid "Recent Post ( ASC = 1 2 3 )"
+msgstr "Publication récente (ASC = 1 2 3 )"
+
+#: inc/widgets/widget-register.php:16
+msgid "Front Page"
+msgstr "Page d'accueil"
+
+#: inc/widgets/widget-register.php:18
+msgid "Valid only for light blue widgets"
+msgstr "Valable seulement pour les widgets bleus clair"
+
+#: inc/widgets/widget-register.php:29
+msgid "Blog Sidebar"
+msgstr "Barre latérale du blog"
+
+#: inc/widgets/widget-register.php:31
+msgid "This is to display the sidebar on the blog"
+msgstr "Ceci est à afficher sur la barre latérale du blog"
+
+#: inc/widgets/widget-register.php:42
+msgid "Footer 1"
+msgstr "Pied de page 1"
+
+#: inc/widgets/widget-register.php:44
+msgid "Footeer section #1"
+msgstr "Section de pied de page #1"
+
+#: inc/widgets/widget-register.php:55
+msgid "Footer 2"
+msgstr "Pied de page 2"
+
+#: inc/widgets/widget-register.php:57
+msgid "Footeer section #2"
+msgstr "Section de pied de page #2"
+
+#: inc/widgets/widget-register.php:68
+msgid "Footer 3"
+msgstr "Pied de page 3"
+
+#: inc/widgets/widget-register.php:70
+msgid "Footeer section #3"
+msgstr "Section de pied de page #3"
+
+#: inc/widgets/builder/by-categories/by-categories.php:25
+#: inc/widgets/builder/by-order/by-order.php:25
+#: inc/widgets/builder/by-tags/by-tags.php:25
+msgid "This widget only applies to the Front Page section."
+msgstr "Ce widget ne s'applique qu'à la section de la page d'accueil."
+
+#: inc/widgets/builder/by-categories/by-categories.php:29
+msgid "Goblog Posts Builder (By: Categories)"
+msgstr "Constructeur de publications Goblog (Par: Catégories)"
+
+#: inc/widgets/builder/by-categories/by-categories.php:121
+#: inc/widgets/builder/by-tags/by-tags.php:121
+msgid "Posts navigation"
+msgstr "Navigation dans les publications"
+
+#: inc/widgets/builder/by-categories/by-categories.php:195
+#: inc/widgets/builder/by-order/by-order.php:205
+#: inc/widgets/builder/by-tags/by-tags.php:195
+msgid "Display category?"
+msgstr "Afficher les catégories?"
+
+#: inc/widgets/builder/by-categories/by-categories.php:201
+#: inc/widgets/builder/by-order/by-order.php:211
+#: inc/widgets/builder/by-tags/by-tags.php:201
+msgid "Display author?"
+msgstr "Afficher les auteurs?"
+
+#: inc/widgets/builder/by-categories/by-categories.php:207
+#: inc/widgets/builder/by-order/by-order.php:217
+#: inc/widgets/builder/by-tags/by-tags.php:207
+msgid "Display comment?"
+msgstr "Afficher les commentaires?"
+
+#: inc/widgets/builder/by-categories/by-categories.php:222
+#: inc/widgets/builder/by-order/by-order.php:232
+#: inc/widgets/builder/by-tags/by-tags.php:222
+msgid "Display pagination?"
+msgstr "Afficher la pagination?"
+
+#: inc/widgets/builder/by-categories/by-categories.php:227
+msgid "Categories"
+msgstr "Catégories"
+
+#: inc/widgets/builder/by-order/by-order.php:29
+msgid "Goblog Posts Builder (By: order)"
+msgstr "Constructeur de publications Goblog (Par: Ordre)"
+
+#: inc/widgets/builder/by-tags/by-tags.php:29
+msgid "Goblog Posts Builder (By: Tags)"
+msgstr "Constructeur de publications Goblog (Par: Mot-clé)"
+
+#: inc/widgets/builder/by-tags/by-tags.php:227
+msgid "Tags"
+msgstr "Mots-clés"
+
+#: template-parts/admin/box-tabs.php:3 template-parts/admin/box-title.php:3
+msgid "Overview"
+msgstr "Aperçu"
+
+#: template-parts/admin/box-tabs.php:4
+msgid ""
+"Goblog Free is a WordPress theme with a clean design and fully responsive "
+"layout. Tailor-made for bloggers and personal web needs. This theme has many "
+"features to support your blogging needs, and there are customization "
+"controls. You can get it for free and download it in the official WordPress "
+"repository."
+msgstr ""
+"Goblog gratuit est un thème Wordpress avec un design épuré et une mise en "
+"page adaptable. Fait sur mesure pour les besoins des blogueurs et des sites "
+"personnels. Ce thème a de nombreuses fonctionnalités pour aider dans vos "
+"besoins en blog, et il y a des contrôles de personnalisations. Vous pouvez "
+"l'obtenir gratuitement et le télécharger dans le dépôt Wordpress officiel."
+
+#: template-parts/admin/box-tabs.php:9 template-parts/admin/box-title.php:7
+msgid "Changelog"
+msgstr "Journal des modifications"
+
+#: template-parts/admin/box-tabs.php:11
+msgid "=== Version 3.1.1 ==="
+msgstr "=== Version 3.1.1 ==="
+
+#: template-parts/admin/box-tabs.php:12
+msgid "* Add new admin "
+msgstr "* Ajout nouvel administrateur "
+
+#: template-parts/admin/box-tabs.php:13
+msgid "* Add page blank, left and right"
+msgstr "* Ajout page blanche, gauche et droite"
+
+#: template-parts/admin/box-tabs.php:14
+msgid "* Fix css responsive"
+msgstr "* Fixer l'adaptabilité des css"
+
+#: template-parts/admin/box-tabs.php:15
+msgid "* Add style"
+msgstr "* Ajout style"
+
+#: template-parts/admin/box-tabs.php:16
+msgid "=== Version 3.1.0 ==="
+msgstr "=== Version 3.1.0 ==="
+
+#: template-parts/admin/box-tabs.php:17
+msgid "* Add New Widgets"
+msgstr "* Ajout Nouveaux Widgets"
+
+#: template-parts/admin/box-tabs.php:18
+msgid "* Add Customize"
+msgstr "* AJout Personnalisation"
+
+#: template-parts/admin/box-tabs.php:19
+msgid "* Add Layout style"
+msgstr "* Ajout d'un style de Mise en page"
+
+#: template-parts/admin/box-tabs.php:20
+msgid "=== Version 2.0.0+ ==="
+msgstr "=== Version 2.0.0+ ==="
+
+#: template-parts/admin/box-tabs.php:21
+msgid "* Send the theme to the repository 2"
+msgstr "* Envoyer le thème dans le dépôt 2"
+
+#: template-parts/admin/box-tabs.php:22
+msgid "* Fix Coding Standard 2"
+msgstr "* Fixer le standard de code 2"
+
+#: template-parts/admin/box-tabs.php:23
+msgid "=== Version 1.0.0+ ==="
+msgstr "=== Version 1.0.0+ ==="
+
+#: template-parts/admin/box-tabs.php:24
+msgid "* Send the theme to the repository"
+msgstr "* Envoyer le thème dans le répertoire"
+
+#: template-parts/admin/box-tabs.php:25
+msgid "* Fix Css Style"
+msgstr "* Fixer le style CSS"
+
+#: template-parts/admin/box-tabs.php:26
+msgid "* Fix Coding Standard"
+msgstr "* Fixer le standard de code"
+
+#: template-parts/admin/box-tabs.php:30 template-parts/admin/box-title.php:11
+msgid "Contact"
+msgstr "Contact"
+
+#: template-parts/admin/box-tabs.php:31
+msgid "Do you need our support?"
+msgstr "Est-ce que vous avez besoin de support?"
+
+#: template-parts/admin/box-tabs.php:32
+msgid "Please visit the link below:"
+msgstr "Merci de visiter le lien ci-dessous:"
+
+#: template-parts/admin/box-tabs.php:36
+msgid "https://gothemeshop.com/contact-us"
+msgstr "https://gothemeshop.com/contact-us"
+
+#: template-parts/admin/box-tabs.php:41
+msgid "https://web.facebook.com/Gothemeshop"
+msgstr "https://web.facebook.com/Gothemeshop"
+
+#: template-parts/admin/box-tabs.php:49 template-parts/admin/box-title.php:15
+msgid "Documentation"
+msgstr "Documentation"
+
+#: template-parts/admin/box-tabs.php:50
+msgid "This theme is well documented, you can visit the link below to read it:"
+msgstr ""
+"Ce thème est bien documenté, vous pouvez visiter le lien ci-dessous pour la "
+"lire:"
+
+#: template-parts/admin/box-tabs.php:54
+msgid "https://gothemeshop.com/goblog-free-theme-doc/"
+msgstr "https://gothemeshop.com/goblog-free-theme-doc/"
+
+#: template-parts/admin/box-tabs.php:62 template-parts/admin/box-title.php:19
+msgid "Free Vs Pro"
+msgstr "Gratuit Vs Pro"
+
+#: template-parts/admin/comparison-table.php:5
+msgid "Features"
+msgstr "Fonctionnalités"
+
+#: template-parts/admin/comparison-table.php:6
+msgid "Free Version"
+msgstr "Version Gratuite"
+
+#: template-parts/admin/comparison-table.php:7
+msgid "Pro Version"
+msgstr "Version Pro"
+
+#: template-parts/admin/comparison-table.php:12
+msgid "License"
+msgstr "Licence"
+
+#: template-parts/admin/comparison-table.php:21
+msgid "Domain"
+msgstr "Domaine"
+
+#: template-parts/admin/comparison-table.php:23
+#: template-parts/admin/comparison-table.php:26
+#: template-parts/admin/comparison-table.php:32
+msgid "Unlimited"
+msgstr "Illimité"
+
+#: template-parts/admin/comparison-table.php:30
+msgid "Update"
+msgstr "Mise à jour"
+
+#: template-parts/admin/comparison-table.php:35
+msgid "12 Month"
+msgstr "12 Mois"
+
+#: template-parts/admin/comparison-table.php:39
+msgid "Customize"
+msgstr "Personnaliser"
+
+#: template-parts/admin/comparison-table.php:48
+msgid "Customize Navigasi Primary"
+msgstr "Personnaliser le Menu de Navigation Principal"
+
+#: template-parts/admin/comparison-table.php:57
+msgid "Customize Navigasi Footer"
+msgstr "Personnaliser le Menu de Navigation de Pied de Page"
+
+#: template-parts/admin/comparison-table.php:66
+msgid "Customize Typography"
+msgstr "Personnaliser la Typographie"
+
+#: template-parts/admin/comparison-table.php:75
+msgid "Customize Single"
+msgstr "Personnaliser les Publications Simples"
+
+#: template-parts/admin/comparison-table.php:84
+msgid "Google Fonts 950+"
+msgstr "Polices Google 950+"
+
+#: template-parts/admin/comparison-table.php:93
+msgid "Customize Selective Refresh"
+msgstr "Personnaliser le Rafraîchissement Sélectif"
+
+#: template-parts/admin/comparison-table.php:102
+msgid "Widgets"
+msgstr "Widgets"
+
+#: template-parts/admin/comparison-table.php:111
+msgid "Widget Goblog About Me"
+msgstr "Widget Globlog A Propos de Moi"
+
+#: template-parts/admin/comparison-table.php:120
+msgid "Widget Goblog ADS"
+msgstr "Widget Goblog Publicités"
+
+#: template-parts/admin/comparison-table.php:129
+msgid "Widget Goblog Facebook Fans Page"
+msgstr "Widget Goblog Page Facebook des Fans"
+
+#: template-parts/admin/comparison-table.php:138
+msgid "Widget Goblog Posts (By: Order)"
+msgstr "Widget Goblog Publications (Par: Ordre)"
+
+#: template-parts/admin/comparison-table.php:147
+msgid "Widget Goblog Posts Builder(By: Categories)"
+msgstr "Widget Goblog Publications (Par: Catégories)"
+
+#: template-parts/admin/comparison-table.php:156
+msgid "Widget Goblog Posts Builder(By: Order)"
+msgstr "Widget Goblog Publications (Par: Ordre)"
+
+#: template-parts/admin/comparison-table.php:165
+msgid "Widget Goblog Posts Builder(By: Tags)"
+msgstr "Widget Goblog Publications (Par: Mot-clé)"
+
+#: template-parts/admin/comparison-table.php:174
+msgid "Widget Goblog Posts Builder(By: Author)"
+msgstr "Widget Goblog Publications (Par: Auteur)"
+
+#: template-parts/admin/comparison-table.php:183
+msgid "Class Customize"
+msgstr "Classe Personnalisée"
+
+#: template-parts/admin/comparison-table.php:192
+msgid "Class Customize Range"
+msgstr "Classe Personnalisée Etendue"
+
+#: template-parts/admin/comparison-table.php:201
+msgid "Class Customize Toggle"
+msgstr "Classe Personnalisée Interrupteur"
+
+#: template-parts/admin/comparison-table.php:210
+msgid "Class Customize Layout"
+msgstr "Classe Personnalisée Mise en page"
+
+#: template-parts/admin/comparison-table.php:219
+msgid "User Add Link Social Media"
+msgstr "Ajout de Lien Réseau Social pour l'Utilisateur"
+
+#: template-parts/admin/comparison-table.php:228
+msgid "Social Media Footer"
+msgstr "Pied de page Réseaux Sociaux"
+
+#: template-parts/admin/comparison-table.php:237
+msgid "Layout"
+msgstr "Mise en page"
+
+#: template-parts/admin/comparison-table.php:246
+msgid "Layout Builder"
+msgstr "Constructeur de Mise en Page"
+
+#: template-parts/admin/comparison-table.php:255
+msgid "Layout Single"
+msgstr "Mise en page de publications simple"
+
+#: template-parts/admin/comparison-table.php:264
+msgid "Pages"
+msgstr "Pages"
+
+#: template-parts/admin/comparison-table.php:273
+msgid "Template Blank"
+msgstr "Modèle Vide"
+
+#: template-parts/admin/comparison-table.php:282
+msgid "Page No Sidebar"
+msgstr "Page sans barre latérale"
+
+#: template-parts/admin/comparison-table.php:291
+msgid "Page Sidebar Left"
+msgstr "Page avec barre latérale à gauche"
+
+#: template-parts/admin/comparison-table.php:300
+msgid "Page Sidebar Right"
+msgstr "Page avec barre latérale à droite"
+
+#: template-parts/admin/comparison-table.php:309
+msgid "Shortcode"
+msgstr "Code Raccourci"
+
+#: template-parts/admin/comparison-table.php:318
+msgid "Table Of Contens"
+msgstr "Table des matières"
+
+#: template-parts/admin/header-top.php:2
+msgid "Goblog Free Version 3.1.1"
+msgstr "Goblog version gratuite 3.1.1"
+
+#: template-parts/admin/header-top.php:3
+msgid ""
+"You will find everything you need to get started with Goblog Free below."
+msgstr ""
+"Vous trouverez tout ce dont vous avez besoin pour commencer avec Goblog "
+"gratuit ci-dessous."
+
+#: template-parts/layout/blog/default.php:15
+msgid "Recent Post"
+msgstr "Articles récents"
+
+#: template-parts/navigation/navigation-primary.php:23
+msgid "burger"
+msgstr "hamburger"
+
+#: template-parts/navigation/navigation-primary.php:44
+msgid "search"
+msgstr "rechercher"
+
+#: template-parts/navigation/navigation-primary.php:56
+msgid "close"
+msgstr "fermer"
+
+#: template-parts/none/no-post.php:15
+msgid "Nothing Found"
+msgstr "Rien Trouvé"

@@ -1,0 +1,301 @@
+/*
+Theme Name: Goblog Free - micter
+Author: Michael T.
+Author URI: https://www.geek-chretien.fr/
+Template: goblog-free
+Description: Slight modifications of the Goblog Free theme. Goblog Free is a WordPress theme with a clean design and fully responsive layout. Tailor-made for bloggers and personal web needs. This theme has many features to support your blogging needs, and there are customization controls. You can get it for free and download it in the official WordPress repository.
+Version: 0.1
+Requires at least: 5.0
+Tested up to: 5.5
+Requires PHP: 7.0
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: two-columns, right-sidebar, custom-background, custom-logo, custom-header, custom-colors, custom-menu, featured-images, editor-style, blog, portfolio, footer-widgets, post-formats
+*/
+
+/* =================== Font =================== */
+@font-face {
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Palanquin'), url(../goblog-free-micter/assets/palanquin/Palanquin-Thin.ttf) format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Palanquin'), url(../goblog-free-micter/assets/palanquin/Palanquin-Regular.ttf) format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Palanquin'), url(../goblog-free-micter/assets/palanquin/Palanquin-Bold.ttf) format('truetype');
+    font-display: swap;
+}
+
+/* =================== Styles généraux ================== */
+body {
+    font-family: 'Palanquin', sans-serif;
+}
+
+main {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+nav.primary1 {
+    width: 100%;
+    border-top: 1px solid #455f8b;
+    border-bottom: 1px solid #455f8b;
+}
+
+.sidebar-default {
+    border-top-right-radius: 10px;
+}
+
+/* =================== Menu ========================== */
+.box-menu > ul > li > a {
+	padding: 18px 20px;
+}
+
+.box-menu .sub-menu li {
+    list-style: none;
+}
+
+/* =================== Header ============================ */
+.container-header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-header-infos {
+    flex: 1;
+    flex-grow: 2;
+}
+
+.container-header-title:after {
+    content: "";
+    display: inline-block;
+    width: 200px;
+    flex-grow: 0;
+    flex-shrink: 2;
+}
+
+.container-header-title .header-name h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container-header-title .header-description {
+    text-align: center;
+    font-size: 20px;
+}
+
+.container-header-title .custom-logo-link {
+    display: block;
+    width: 200px;
+}
+
+.container-header-title .custom-logo-link img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+
+/* =================== Accueil ========================== */
+.main-front-page .grids .content-gambar {
+	width: 30%;
+}
+
+.main-front-page .grids .content {
+	flex-grow: 2;
+	border-bottom-color: #999999;
+	border-bottom-width: 1px;
+}
+
+.main-front-page .grids .name-post {
+    margin-top: 0px;
+}
+
+.main-front-page .grids .categoris a span.first-letter {
+	background-color: #00238c;
+}
+
+.main-front-page .grids .content .box-content-info a.author,
+.main-front-page .grids .content .box-content-info .com,
+.main-front-page .grids .content .box-content-info .time {
+	color: #777777;
+}
+
+/* Side bar */
+.sidebar-default h4 {
+	margin-bottom: 10px;
+    border-left: 5px solid #305088;
+}
+
+.sidebar-default .widget_search input[type="search"] {
+    border-radius: 4px;
+
+}
+
+.sidebar-default .widget_search input[type="search"]:focus {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4fa4f3;
+    border-radius: 4px;
+}
+
+.sidebar-default .widget_search .search-submit {
+    background-color:  #305088;
+}
+
+/* Widget catégories */
+.widget_categories span {
+    background-color: #324669;
+}
+
+.widget_categories li:hover span {
+    background-color:  #4a6b96;
+}
+
+/* Flèche de défilement */
+#button-scroll i {
+    color:  #ddd;
+}
+
+
+/* =================== Pages d'articles ========================== */
+.container-page {
+    padding-top: .5%;
+}
+
+.container-page h1.title-page {
+    padding-top: 0.2em;
+    border-bottom: 1px solid #305088;
+}
+
+.container-single {
+	padding-top: 0px;
+}
+
+.container-single .container-content {
+    border-top-color: #999999;
+	border-top-width: 1px;
+    padding-top: 15px;
+}
+
+.container-content .thumbnail-single {
+	float: right;
+	width: 200px;
+}
+
+.container-content .the-content {
+    margin-top: 20px;
+}
+
+.the-content p {
+    color: #222222;
+    text-align: justify;
+}
+
+.the-content ul ul li {
+    list-style-type: circle;
+}
+
+/* Encadré à propos de l'auteur */
+.author-box {
+    border-radius: 5px;
+    background-color: #fafaff;
+    border: 1px dashed #4a6b96
+}
+
+.author-box .author-info {
+    text-align: justify;
+}
+
+/* Mots-clés */
+.main-single .tags {
+    font-weight: bold;
+}
+
+.main-single .tags a {
+    border: 1px solid #305088;
+    border-left-width: 4px;
+    border-radius: 3px;
+    margin-bottom: .5em;
+    text-decoration: none;
+    font-weight: normal;
+    background-color: #fafaff;
+    margin-right: 1em;
+    box-shadow: 2px 2px 4px rgba(200, 200, 200, .5);
+}
+
+.main-single .tags a:first-child {
+	margin-left: 1em;
+}
+
+/* Fil d'ariane */
+.breadcrumbs {
+    color: #fff;
+    line-height: normal;
+    background-color: #305088;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+
+.breadcrumbs__link {
+    color: #fff;
+    border: 1px solid #305088;
+}
+
+.breadcrumbs__current {
+    color: #fff;
+}
+
+/* Commentaires */
+.comments-title {
+    color: #324669;
+}
+
+.comments-area .reply a.comment-reply-link {
+    background-color: #305088;
+}
+
+.comments-area .reply a.comment-reply-link:hover, a.comment-reply-link:active {
+    background-color: #666;
+}
+
+/* Images */
+figure {
+    color: #666;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Bloc de citation */
+blockquote {
+    background-color: #f5f5f5;
+    border-left: 5px solid #305088;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Petite marge au-dessus du logo en version mobile */
+@media screen and (max-width: 540px) {
+    
+    .container-header-title {
+        text-align: center;
+    }
+
+    .container-header-title .custom-logo-link img {
+        margin-top: 15px;
+    }
+}
